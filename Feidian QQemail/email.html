@@ -135,21 +135,23 @@
             display: table;
         }
         .zhanghao{
-            padding-top: 5px;
-            padding-bottom: 5px;
+            padding-top: 12px;
+            padding-bottom: 12px;
             width: 281.99px;
             border: 0.996px rgb(160,177,196) solid;
             font-size: 14px;
-            margin: 0 auto;
+            margin-left: 25px;
             color: #B6B6B6;
         }
         .mima{
-            padding-top: 5px;
-            padding-bottom: 5px;
+            padding-top: 12px;
+            padding-bottom: 12px;
             width: 281.99px;
             border: 0.996px rgb(160,177,196) solid;
             font-size: 14px;
-            margin: 15px auto 0;
+            /* margin: 15px auto 0; */
+            margin-top: 15px;
+            margin-left: 25px;
             color: #B6B6B6;
         }
         .denglu div{
@@ -182,10 +184,13 @@
         }
         .click{
             background-color: #5a98de;
-            padding-top: 6px;
-            padding-bottom: 6px;
+            padding-top: 10px;
+            padding-bottom: 10px;
             width: 281.99px;
-            margin: 6px auto 0;
+            border: 0.996px #5a98de solid;
+            /* margin: 6px auto 0; */
+            margin-top: 6px;
+            margin-left: 25px;
             border-radius: 4px;
             text-align: center;
             font-size: 18px;
@@ -287,18 +292,23 @@
             <img src="QQ.jpg" alt="">
         </div>
         <div class="box3">
-            <a href="#"><div class="weixin">微信登录</div></a>
-            <a href="#"><div class="QQ">QQ登录</div></a>
+            <!-- <a href="#"><div class="weixin">微信登录</div></a> -->
+            <a href="#"><span class="weixin">微信登录</span></a>
+            <!-- <a href="#"><div class="QQ">QQ登录</div></a> -->
+            <a href="#"><span class="QQ">QQ登录</span></a>
             <div class="denglu">
-                <div class="zhanghao">&nbsp;支持QQ号/邮箱/手机号登录</div>
-                <div class="mima">&nbsp;密码</div>
+                <input class="zhanghao" type="text" value="支持QQ号/邮箱/手机号登录">
+                <!-- <div class="zhanghao">&nbsp;支持QQ号/邮箱/手机号登录</div> -->
+                <input class="mima" type="text" value="密码">
+                <!-- <div class="mima">&nbsp;密码</div>/div> -->
                 <div class="zidong">
                     <a href="#"></a>
                     <span>&nbsp;下次自动登录</span>
                 </div>
-                <a class="click1" href="#">
+                <!-- <a class="click1" href="#">
                 <div class="click">登&nbsp;录</div>
-                </a>
+                </a> -->
+                <input class="click" type="submit" value="登&nbsp;录">
                 <div class="fast">
                     <a href="#">扫码快捷登录</a>
                 </div>
